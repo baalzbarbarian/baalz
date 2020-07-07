@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "48402422887",
+    "firebase_url": "https://assignment-advanced-android.firebaseio.com",
+    "project_id": "assignment-advanced-android",
+    "storage_bucket": "assignment-advanced-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:48402422887:android:ebbad228cb7637792e48c2",
+        "android_client_info": {
+          "package_name": "com.advancedandroid.assignment_advanced_android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "48402422887-oamcpp75f2hcgpupce9f8mo4tgge0smj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzPDsDffmU90-jElIJ-T82aEJzklf4lX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "48402422887-oamcpp75f2hcgpupce9f8mo4tgge0smj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

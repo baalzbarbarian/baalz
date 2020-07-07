@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ViewFlipper
+        android:id="@+id/sliderImage"
+        android:layout_width="match_parent"
+        android:layout_height="220dp">
+    </ViewFlipper>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/studentsManager"
+        android:orientation="horizontal"
+        android:background="@drawable/button_home_menu_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:fontFamily="@font/windsorb"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textSize="24sp"
+            android:text="Course"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_turn_right_white_color_24dp_24dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/newsManager"
+        android:orientation="horizontal"
+        android:background="@drawable/button_home_menu_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:fontFamily="@font/windsorb"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textSize="24sp"
+            android:text="News"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_turn_right_white_color_24dp_24dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/mapsLayout"
+        android:orientation="horizontal"
+        android:background="@drawable/button_home_menu_custom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_weight="1"
+            android:fontFamily="@font/windsorb"
+            android:padding="10dp"
+            android:gravity="left"
+            android:textSize="24sp"
+            android:text="Maps"
+            android:textColor="#FFF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_turn_right_white_color_24dp_24dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_gravity="bottom"
+            android:id="@+id/btnLogout"
+            android:orientation="horizontal"
+            android:background="@drawable/button_home_menu_custom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:paddingRight="15dp"
+                android:maxLines="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/windsorb"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="Logout"
+                android:textColor="#FFF"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

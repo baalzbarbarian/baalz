@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Assignment_Advanced_Android</string>
+    <string name="action_settings">Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_add_class">Điền thông tin để thêm lớp</string>
+    <string name="text_add_student">Các trường không được trống</string>
+    <string name="title_activity_login">Đăng Nhập</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_username">Tên đăng nhập</string>
+    <string name="prompt_password">Mật khẩu</string>
+    <string name="button_login">"Đăng Nhập"</string>
+    <string name="button_back">"Thoát"</string>
+    <string name="facebook_app_id">416151045763429</string>
+    <string name="fb_login_protocol_scheme">fb416151045763429</string>
+
+</resources>
